@@ -1,8 +1,7 @@
-# Build with pyinstaller --onefile --name=yt-dlp yt-dlp-wrapper.py
 import sys
 import subprocess
 
-# Define paths
+# Define path to yt-dlp-real.exe
 yt_dlp_path = r"C:\Program Files (x86)\Steam\steamapps\common\Resonite\RuntimeData\yt-dlp-real.exe"
 
 # Construct command with forced argument
